@@ -1,0 +1,13 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row; /*column; row-reverse column row-reverse*/
+    flex-wrap: wrap; /*nowrap wrap wrap-reverse*/
+    gap: 3rem; /*Espaçamento entre os itens*/
+    /* Eixo Horinzontal - Main Axis */
+    justify-content: space-evenly; /*flex-start flex-end center space-between space-around space-evenly*/
+    
+    /* Eixo Vertical - Cross Axis */
+    align-items: center; /*flex-start flex-end center baseline stretch*/
+
+}

@@ -3,6 +3,11 @@ import "./styles/global.css";
 import "./app.css";
 import { MyText } from "./components/Mytext";
 
+import "./styles/theme.css";
+import "./styles/global.css";
+import "./app.css";
+import { MyText } from "./components/Mytext";
+
 export default function App() {
   const texts = [
     { title: "React Component 1", text: "Olá mundo" },
@@ -13,7 +18,6 @@ export default function App() {
   ];
 
   return (
-    //react fragment
     <>
       <h1>Welcome to the React App</h1>
       <p>This is a simple React application.</p>
@@ -25,3 +29,4 @@ export default function App() {
     </>
   );
 }
+  
