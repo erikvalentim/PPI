@@ -2,7 +2,7 @@ import "./styles/theme.css";
 import "./styles/global.css";
 import "./app.css";
 import { MyText } from "./components/Mytext";
-
+import { MyGrid } from "./components/MyGrid";
 import "./styles/theme.css";
 import "./styles/global.css";
 import "./app.css";

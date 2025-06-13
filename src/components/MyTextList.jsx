@@ -10,15 +10,19 @@ export function MyTextList() {
     ];
 
     return (
-        <div className={stytles.container}>
-            {texts.map((text, index) => (
-                <MyText key={index} title={`${text.title} ${index + 1}`}>
-                    {text.text}
-                </MyText>
-            ))} 
-        </div>
+        <>
+            <h1 className={styles.title}>My Text List</h1>
+            <div className={styles.container}>
+                {texts.map((text, index) => (
+                    <MyText key={index} title={`${text.title} ${index + 1}`}>
+                        {text.text}
+                    </MyText>
+                ))} 
+            </div>
+        </>
     );
 }
+
 
 
 //TESTE

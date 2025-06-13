@@ -5,9 +5,24 @@
     flex-wrap: wrap; /*nowrap wrap wrap-reverse*/
     gap: 3rem; /*Espaçamento entre os itens*/
     /* Eixo Horinzontal - Main Axis */
-    justify-content: space-evenly; /*flex-start flex-end center space-between space-around space-evenly*/
-    
+    justify-content: space-evenly; /*flex-start flex-end center space-between space-around space-evenly*/    
     /* Eixo Vertical - Cross Axis */
     align-items: center; /*flex-start flex-end center baseline stretch*/
-
+    @media (max-width: 768px) {
+        flex-direction: column nowrap;
+        height: auto;
+    }
 }
+    .tittle{
+        margin-top: 3rem;
+        font-size: 5rem;
+        font-weight: bold;
+        text-align: center;
+
+        @media (max-width: 768px) {
+            font-size: 4rem;
+        }
+@media (min-width: 1000px) {
+            font-size: 6rem;
+        }        
+    }
